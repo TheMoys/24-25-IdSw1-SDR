@@ -13,13 +13,13 @@ state "BORRANDO_USUARIO" as BorrandoUsuario
 
 [*] --> MenuPrincipal
     note on link
-        Responsable 
+        Administrador 
         inicia sesión
     end note
 
 MenuPrincipal -> [*]
     note on link
-        Responsable 
+        Administrador 
         cierra sesión
     end note
 
